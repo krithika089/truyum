@@ -1,0 +1,81 @@
+<!doctype HTML>
+<html>
+<head>
+	<title>Menu item list admin</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script type="text/javascript" src="js/script.js"></script>
+
+</head>
+
+<body>
+
+<header>
+	<span id="text">truYum</span>
+	<img src="images/pic1.jpeg" title="Image">
+	<nav>
+	<a href="menu-item-list-customer.html" class="nav-menu">Menu</a>
+	</nav>
+
+</header>
+<div class="content">
+<h2>Edit Menu Item</h2>
+<form action="edit-menu-item-status.html" onsubmit="return validate()">
+<table cellspacing="10px">
+<tr>
+	<td colspan="4"><label for="menu-name">Name</label></td>
+</tr>
+<tr>
+	<td><input type="text" value="Sandwich" id="menu-name"></td>
+</tr>
+<tr>
+	<td><label for="numbe">Price(Rs.)</label></td>
+	<td colspan="2"><label for="active">Active</label></td>
+	<td colspan="1"><label for="date">Date of Launch</label></td>
+	<td><label for="list">Category</label></td>
+</tr>
+<tr>
+	<td><input type="number" id="numbe" value="97"></td>
+	<td><input type="radio" name="active" id="active" value="yes">Yes</td>
+	<td><input type="radio" name="active" id="active" value="no">No</td>
+	<td><input type="text" id="date" value="27/04/2022"></td>
+	<td> <select id="list">
+	<option value="Starters">Starters</option>
+	<option value="Main Course">Main Course</option>
+	<option value="Dessert">Dessert</option>
+	<option value="Drinks">Drinks</option>
+</select></td>
+</tr>
+ 
+<td>
+<input class="form-check-input" type="checkbox" id="freeDelivery">
+  <label class="form-check-label" for="gridCheck">
+                                        Free Delivery
+                                    </label>
+ </td>
+ <tr>
+ <td><input type="submit" id="save" value="Save"></td>
+ </tr>
+
+</table>
+</form>
+
+</div>
+
+
+
+
+<footer>
+	Copyright @2019
+
+</footer>
+
+
+
+</body>
+
+
+
+
+
+
+</html>
